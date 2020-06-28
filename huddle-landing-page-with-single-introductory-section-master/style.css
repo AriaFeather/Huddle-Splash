@@ -1,0 +1,62 @@
+/* Font Families */
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+ */
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
+body{
+  color: #fff;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url('images/bg-desktop.svg');
+  background-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  padding: 1rem 3rem;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  line-height: 50px;
+}
+p {
+  line-height: 30px;
+}
+.btn {
+  border-radius: 2rem;
+  color: blue;
+  width: 50%;
+  box-shadow: 4px 11px 8px #2125298f;
+  }
+
+.mockups{
+  width:inherit;
+}
+
+.col-lg-6{
+  margin: 2rem 0;
+}
+
+.icons {
+  text-align:right;
+}
+
+.fab {
+  padding: 0 12px;
+}
+
+@media(max-width: 600px){
+  body {
+    background-image: url('images/bg-mobile.svg');
+
+  }
+  .icons, .col-lg-6 {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+
+  }
+}
